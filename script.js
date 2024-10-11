@@ -2,16 +2,16 @@ function cursorEffect(){
 const page1Cont = document.querySelector("#page1-content");
 const mousecr =  document.querySelector("#mousecr")
 
-page1Cont.addEventListener("mousemove",function(move){
+page1Cont.addEventListener("mousemove", function(move){
    mousecr.style.left = move.pageX + "px";
-   mousecr.style.top = move.move.pageY + "px";
+   mousecr.style.top = move.pageY + "px";
 } )
 
-page1Content.addEventListener("mouseenter",function(){
+page1Content.addEventListener("mouseenter", function(){
     mousecr.style.transform = "scale(1)";
     mousecr.style.opacity = "1";
 })
-page1Content.addEventListener("mouseleave",function(){
+page1Content.addEventListener("mouseleave", function(){
     mousecr.style.transform = "scale(0)";
     mousecr.style.scale = "0";
 })
