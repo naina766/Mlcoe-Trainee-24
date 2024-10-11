@@ -1,63 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'sans-serif';
-    color: #fff;
-}
-html, body{
-    height: 100%;
-    width: 100%;
-    color: white;
-}
-#nav{
-    height: 145px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    padding: 20px 150px;
-    gap: 45px;
-    position: fixed; 
-    z-index: 99;
-    background: rgba(0,0,0,0.6);
-    /* transition: background-color 0.3s ease; */
-}
-#page1 video{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute; 
-    z-index: -1; 
-}
-#page1-content{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    position : relative;
-    z-index: 2;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 5vw;
-}
-#nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 3vw 3vw;
-    background-color: red;
-}
-#nav h3{
-    font-size: 1.4vw;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | REJOUICE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
 
-}
-#nav h4{
-    font-size: 1.4vw;
-}
-#page1-content h1{
-    
-}
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <!-- <div id="main"> -->
+      <section id="page1">
+        <div id="mousecr">
+          <h5>Play Reel</h5>
+        </div>
+        <video autoplay loop muted src="./bg-video.mp4"></video>
+     
+      <div id="page1-content">
+        <div id="nav">
+          <h3>The Venture Agency</h3>
+          <h4> Menu</h4>
+        </div>
+        <h1>rejouice</h1>
+      </div>
+    </section>
+ 
+   
+<section id="page2">
+  <div id = "h612">
+  <h6 id = "h61"> Full-service creative agency. Two engagement models.</h6>
+  <h6 id = "h62"> Paris & San Diego</h6>
+</div>
+  <hr>
+    <pre id="page2-content">
+      We are a digital brand accelerator.We 
+      design and develop market-defining brands 
+      through award-wining deliverables. Choose full
+      cash compensation or offset ut to 50% of our 
+      for equity in your company. Your vision, your 
+      decision.
+    </pre>
+  </section>
+<!-- </div> -->
+  <script src = "script.js"></script>
+</body>
+</html>
