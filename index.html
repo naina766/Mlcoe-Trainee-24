@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel Agency</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Bookings</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+
+        </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account?<a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Turning your travel Dreams into reality.</h3>
+            <p>Explore the World, Our journey at a Time</p>
+            <a href="#" class="btn">Explore more</a>
+        </div>
+        <div class="vid">
+            <span class="vidbtn" data-src="video1.mp4"></span>
+            <span class="vidbtn" data-src="video2.mp4"></span>
+            <span class="vidbtn" data-src="video3.mp4"></span>
+            <span class="vidbtn" data-src="video4.mp4"></span>
+            <span class="vidbtn" data-src=""></span>
+        </div>
+        <div class="vidcont">
+            <video loop controls muted class="video-slider" src="video1.mp4"></video>
+            <video loop controls muted class="video-slider" src="video2.mp4"></video>
+            <video loop controls muted class="video-slider" src="video3.mp4"></video>
+            <video loop controls muted class="video-slider" src="video4.mp4"></video>
+            <video loop controls muted class="video-slider" src="video5.mp4"></video>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> It is a beautiful city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   
+   
