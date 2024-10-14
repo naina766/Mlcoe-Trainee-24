@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel Agency</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="index.html" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Bookings</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form>
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account?<a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home round" id="home">
+        <div class="content">
+            <h3 id = "text">Its time to be more <br> <span> Adventure</span></h3>
+            <img src="./images/bird2.png" alt="bird1" id = "bird1">
+            <img src="./images/bird2.png" alt="bird2" id = "bird2">
+            <img src="./images/Mountain (1).png" alt="forest" id = "forest">
+            <a href="#" id="btn1">Explore more</a>
+            <img src="./images/Trees (1).png" alt="rock" id ="rock">
+            <img src="./images/Trees (1).png" alt="water" id = "water">
+        </div>
+        <div id="cursor">
+            <h5>Play Animation</h5>
+          </div>
+    </section>
+    <section class="book round hidden" id="book">
+        <h1 class="heading">
+            <span> Book Now</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="./images/image.gif" alt="image">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    <section class="packages round" id="packages">
+        <h1 class="heading">
+           <p> Packages</p>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/maldives.jpg" alt="maldives">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">Maldives</i></h3>
+                    <p>Discover the Maldives: A Tropical Paradise</p>
+                    <br>
+                    <p> Maldives, an enchanting archipelago nestled in the heart of the Indian Ocean. Comprising over 1,000 stunning coral islands, the Maldives is renowned for its breathtaking beauty, pristine white-sand beaches, and crystal-clear turquoise waters. This tropical paradise offers a perfect blend of luxury, adventure, and relaxation, making it a dream destination for travelers from around the globe.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $85.00 <span>$110.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/bankok.jpg" alt="bankok">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Bankok</h3>
+                    <p>Discover Bangkok: The Heart of Thailand</p>
+                    <br>
+                    <p>Bangkok, bustling capital of Thailand, where tradition meets modernity in a vibrant tapestry of culture, and adventure. Known as City of Angels, Bangkok is a dynamic metropolis that captivates millions of visitors every year with its rich history, stunning architecture, and lively atmosphere.Food lovers can enjoy Bangkok world-famous street food, from spicy papaya salads to fragrant Thai curries.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $95.00 <span>$130.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/Singapore.jpg" alt="Singapore">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt">Singapore</i></h3>
+                    <p> Discover Singapore: A City of Diversity </p>
+                    <br>
+                    <p>Singapore, a vibrant city-state at the crossroads of Asia. Renowned for stunning skyline, rich cultural heritage, and cleanliness, Singapore offers a unique blend of tradition and modernity.Its excellent public transport system makes exploring the city easy.
+                        Singapore safety, and attractions make it a top destination for travelers seeking a mix of culture, luxury, and adventure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$110.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/sydney.jpg" alt="sydney image">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p> Explore Sydney: The Jewel of Australia</p>
+                    <p> Australia is vibrant metropolis known for its stunning harbor, iconic landmarks, and rich cultural heritage. From the breathtaking views of the Sydney Opera House and the Sydney Harbour Bridge to the golden sands of Bondi Beach, Sydney offers a unique blend of natural beauty and urban sophistication.Sydney is rich in arts and culture, with museums, galleries, and a dynamic food scene </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/Mumbai.jpg" alt="mumbai image">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                    <p> Discover Mumbai: The City of Dreams</p>
+                    <br>
+                    <p> Mumbai, the bustling capital of Maharashtra, is a vibrant metropolis that epitomizes the essence of India. Known as the City of Dreams, it attracts millions of visitors and aspiring individuals seeking fortune, fame, and adventure.The city is home to Bollywood, India's massive film industry, and hosts a blend of colonial architecture, modern skyscrapers, and sprawling slums.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/Egypt.jpg" alt="egypt image">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Egypt</h3>
+                    <p>Discover the Wonders of Egypt</p>
+                    <br>
+                    <p>Egypt, a land steeped in history and rich in culture. Known as cradle of civilization, Egypt boasts one of the world's oldest and most fascinating histories, dating back over 5,000 years. This incredible country is home to the iconic Pyramids of Giza, the Sphinx, and the majestic temples of Luxor and Karnak, which serve as a testament to its ancient architectural prowess. Egypt is a country steeped in history, culture, and ancient wonders.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $70.00 <span>$100.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/paris.jpg" alt="paris image">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Paris</h3>
+                    <p> Discover Enchanting City of Paris</p>
+                    <br>
+                    <p>Paris, the City of Light, where romance, art, and history intertwine to create an unforgettable experience. charming streets, and vibrant culture, Paris captivates millions of visitors each year. A hub of culture and romance, Paris captivates visitors with its timeless beauty.The Seine River runs through the heart of the city, offering scenic boat tours and stunning views of Paris' bridges and monuments.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $60.00 <span>$80.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/London.jpg" alt="london image">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>London</h3>
+                    <p>Discover London: A City of Vibrant Culture and Rich History</p>
+                    <br>
+                    <p>London, the capital of England and one of the world most iconic cities! A bustling metropolis that seamlessly blends the old with the new, London is a place where history whispers from its ancient buildings while modern skyscrapers touch the sky.London is also a global hub for shopping, dining, and entertainment. From luxury stores on Oxford Street to street markets in Camden and Notting Hill, the city caters taste</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn"> Book now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   <section class="services round hidden" id = "services">
+    
+    <h1 class="heading">
+        <p>Services</p>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3> Affordable hotels</h3>
+            <p> comfortable accommodations are essential for a memorable travel experience. We offer a curated selection of affordable hotels and inns that cater to every traveler needs. Whether you are looking for a cozy boutique inn nestled in the heart of the city or a budget-friendly hotel with essential amenities, our diverse range of options ensures that you can find the perfect stay without breaking the bank.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and Drinks</h3>
+            <p> Our food and drinks services are designed to cater to all tastes and preferences, ensuring that you savor the local flavors of each destination. Whether you're seeking vegetarian, vegan, or gluten-free options, our knowledgeable team will recommend the best eateries and hidden gems to enhance your travel experience. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety guide</h3>
+            <p>Your safety is our top priority. Traveling can sometimes come with uncertainties, which is why we are committed to providing you with comprehensive safety guidelines to ensure a worry-free experience. Before embarking on your journey, always check the latest travel advisories and health recommendations for your destination. We recommend purchasing travel insurance that covers unexpected events, including trip cancellations and medical emergencies. Keep important documents, such as your passport and travel insurance policy, in a secure yet accessible place</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around the world</h3>
+            <p> We pride ourselves on offering a comprehensive range of services designed to cater to every traveler's needs. Whether you're dreaming of a tropical getaway, an adventurous trek through the mountains, or an enriching cultural experience in a bustling city, our expert team is here to guide you every step of the way. We provide personalized travel planning, including itinerary customization, accommodation bookings, and transportation arrangements, ensuring a seamless journey from start to finish.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest travel</h3>
+            <p> We understand that time is precious, which is why we offer the fastest travel solutions tailored to your needs. Our expert team is dedicated to providing you with swift booking processes, ensuring you can secure flights, accommodations, and transportation in just a few clicks. With our exclusive partnerships with leading airlines and hotels, we guarantee quick access to the best deals, allowing you to travel seamlessly and efficiently.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventure</h3>
+            <p>Life is meant to be explored, and our adventure services are designed to ignite your wanderlust. Whether you're seeking the thrill of a mountain trek, the excitement of white-water rafting, or the serenity of a secluded beach getaway, we have curated a diverse range of adventurous experiences tailored just for you. Our expert team is dedicated to providing personalized itineraries that cater to your interests and skill levels, ensuring unforgettable moments that resonate with the spirit of exploration.</p>
+        </div>
+    </div>
+   </section>
+   <section class="gallery round" id = "gallery">
+    <h1 class="heading">
+        <span>Gallery</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./images/santorini.jpg" alt="image">
+            <div class="content">
+                <h3>Santorini, Greece</h3>
+                <p> Famous for its stunning sunsets, white-washed buildings, and deep blue sea, Santorini is a picturesque island in the Aegean Sea.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Machu Picchu.jpg" alt="IMAGE">
+            <div class="content">
+                <h3>Machu Picchu, Peru</h3>
+                <p> This ancient Incan city, set high in the Andes Mountains, offers breathtaking views and a glimpse into a fascinating civilization.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Eiffel Tower.jpg" alt="IMAGE">
+            <div class="content">
+                <h3>The Eiffel Tower, France</h3>
+                <p>  A global cultural icon of France, this iron lattice tower offers breathtaking views of Paris.
+                </p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Aurora Borealis.jpg" alt="IMAGE">
+            <div class="content">
+                <h3>Aurora Borealis, Norway
+                </h3>
+                <p>  The Northern Lights paint the sky with vibrant colors in a spectacular natural light display visible in Arctic regions.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Petra.jpg" alt="IMAGE">
+            <div class="content">
+                <h3> Petra, Jordan</h3>
+                <p>An archaeological site famous for its rock-cut architecture and water conduit system, it was once a thriving trading hub.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Banff National Park.jpg" alt="image">
+            <div class="content">
+                <h3>Banff National Park, Canada</h3>
+                <p> This national park is known for its breathtaking mountain scenery, turquoise lakes, and diverse wildlife.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Taj Mahal.jpg" alt="image">
+            <div class="content">
+                <h3>Taj Mahal, India</h3>
+                <p> An iconic symbol of love, this white marble mausoleum is renowned for its stunning architecture and beautiful gardens.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/Grand Canyon.jpg" alt="image">
+            <div class="content">
+                <h3>Grand Canyon, USA
+                </h3>
+                <p>Known for its immense size and intricate landscapes, the Grand Canyon offers stunning vistas and opportunities for outdoor adventures.
+                </p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+    </div>
+   </section> 
+   <section class="review round" id = "review">
+    <h1 class="heading">
+        <span>Review</span>
+    </h1>
+    <div class="review-slider">
+        <div class="content">
+            <div class="slider expanded">
+                <div class="box">
+                    <img src="./images/review2.jpg" alt="review1" class="reviewer">
+                    <h3>Sarah Thompson</h3>
+                    <p>"I had the most amazing experience with this travel agency! They organized everything perfectly, and I felt like I was on a dream vacation in Bali."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="images/review3.jpg" alt="review2" class="reviewer">
+                    <h3> James Wilson</h3>
+                    <p>"The team was incredibly helpful in planning our family trip to Europe. Every detail was taken care of, and we made memories that will last a lifetime!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="./images/review1.jpg" alt="review3" class="reviewer">
+                    <h3>John deo</h3>
+                    <p>"I was blown away by the efficiency and support provided by this agency. Our trip to Japan was well-organized and full of great experiences!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="./images/review 1.jpg" alt="review4" class="reviewer" >
+                    <h3>Emily Johnson</h3>
+                    <p>I have traveled with many agencies before, but this one stands out. Their personalized service and attention to detail are unmatched. Highly recommend!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+            <div class="box">
+                <img src="./images/review4.jpg" alt="review5" class="reviewer">
+                <h3>Michael Brown </h3>
+                <p>"From the first inquiry to our return home, everything was seamless. The tour guides were knowledgeable and friendly. Can't wait to book again!"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+                <div class="box">
+                    <img src="./images/review5.jpg" alt="review6" class="reviewer">
+                    <h3> Karan </h3>
+                    <p>"An amazing experience! The team took the time to understand what we wanted, and they delivered an incredible trip to the Maldives."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+   </section>
+   <section class="contact round">
+    <h1 class="heading">
+        <span>Contact</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/contact.jpg" alt="image">
+        </div>
+        <form>
+            <div class="inputBox">
+               <input type="text" placeholder="name" required="required">
+                <input type="email" placeholder="email" required="required">
+            </div>
+            <div class="inputBox">
+                <input type="tel" placeholder="number" required="required">
+                <input type="text"  placeholder="subject" required="required">
+
+            </div>
+            <textarea placeholder="message" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" id="send message">
+        </form>
+    </div>
+   </section>
+   <footer class="round">
+    <div class="box-container">
+        <div class="box">
+            <h3> About us</h3>
+            <p> Our Agency is dedicated to creating unforgettable travel experiences tailored to your unique preferences. With our team of passionate travel experts, we curate personalized itineraries that cater to your desires—whether it’s a relaxing beach getaway, an adventurous trek, or an immersive cultural experience. Let us help you explore the world one destination at a time!</p>
+        </div>
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">France</a>
+        </div>
+        <div class="box">
+            <h3> Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Booking</a>
+            <a href="#">Packages</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+    </div>
+    <h5> created by <span>NAINA</span></h5>
+   </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
