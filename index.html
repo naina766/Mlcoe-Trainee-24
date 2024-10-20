@@ -12,7 +12,7 @@
 <body>
     <header>
         <div id="menu-bar" class="fas fa-bars"></div>
-        <a href="index.html" class="logo"><span>T</span>ravel</a>
+        <a href="index.html" class="logo"><i class="fas fa-paper-plane"></i><span>T</span>ravel</a>
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#book">Bookings</a>
@@ -46,13 +46,15 @@
         </form>
     </div>
 
-    <section class="home round" id="home">
+    <section class="home" id="home">
         <div class="content">
             <h3 id = "text">Its time to be more <br> <span> Adventure</span></h3>
-            <img src="./images/bird2.png" alt="bird1" id = "bird1">
+            <img src="./images/bird1.png" alt="bird1" id = "bird1">
             <img src="./images/bird2.png" alt="bird2" id = "bird2">
             <img src="./images/Mountain (1).png" alt="forest" id = "forest">
-            <a href="#" id="btn1">Explore more</a>
+             <div class="btn-container">
+             <button id = "btn1"> Explore More</button>
+            </div>
             <img src="./images/Trees (1).png" alt="rock" id ="rock">
             <img src="./images/Trees (1).png" alt="water" id = "water">
         </div>
@@ -60,9 +62,9 @@
             <h5>Play Animation</h5>
           </div>
     </section>
-    <section class="book round hidden" id="book">
-        <h1 class="heading">
-            <span> Book Now</span>
+    <section class="book hidden" id="book">
+        <h1 class="heading1">
+            <!-- <span> Book Now</span> -->
         </h1>
         <div class="row">
             <div class="image">
@@ -91,9 +93,9 @@
         </div>
     </section>
 
-    <section class="packages round" id="packages">
-        <h1 class="heading">
-           <p> Packages</p>
+    <section class="packages " id="packages">
+        <h1 class="heading2">
+           <!-- <p> Packages</p> -->
         </h1>
 
         <div class="box-container">
@@ -158,7 +160,7 @@
                 <div class="content">
                     <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
                     <p> Explore Sydney: The Jewel of Australia</p>
-                    <p> Australia is vibrant metropolis known for its stunning harbor, iconic landmarks, and rich cultural heritage. From the breathtaking views of the Sydney Opera House and the Sydney Harbour Bridge to the golden sands of Bondi Beach, Sydney offers a unique blend of natural beauty and urban sophistication.Sydney is rich in arts and culture, with museums, galleries, and a dynamic food scene </p>
+                    <p> Australia is vibrant metropolis known for its stunning harbor, iconic landmarks, and rich cultural heritage. From the breathtaking views of the Sydney Opera House and the Sydney Harbour Bridge to the golden sands of Bondi Beach, Sydney offers a unique blend of natural beauty and urban-sophistication.Sydney is rich in arts and culture, with museums, galleries, and a dynamic food scene </p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -230,7 +232,7 @@
                     <h3><i class="fas fa-map-marker-alt"></i>London</h3>
                     <p>Discover London: A City of Vibrant Culture and Rich History</p>
                     <br>
-                    <p>London, the capital of England and one of the world most iconic cities! A bustling metropolis that seamlessly blends the old with the new, London is a place where history whispers from its ancient buildings while modern skyscrapers touch the sky.London is also a global hub for shopping, dining, and entertainment. From luxury stores on Oxford Street to street markets in Camden and Notting Hill, the city caters taste</p>
+                    <p>London, the capital of England and one of world most iconic cities! That seamlessly blends old with new, London is a place where history whispers from its ancient buildings while modern skyscrapers touch the sky.London is also a global hub for shopping, dining, and entertainment. From luxury stores on Oxford Street to street markets in Camden and Notting Hill, city caters taste</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -246,48 +248,113 @@
         </div>
     </section>
 
-   <section class="services round hidden" id = "services">
+   <section class="services" id ="services">
     
-    <h1 class="heading">
-        <p>Services</p>
+    <h1 class="heading3">
+        <!-- <p>Services</p> -->
     </h1>
 
     <div class="box-container">
-        <div class="box">
+        <div class="box flip">
+            <div class="flip-card">
+            <div class="flip-front">
             <i class="fas fa-hotel"></i>
             <h3> Affordable hotels</h3>
             <p> comfortable accommodations are essential for a memorable travel experience. We offer a curated selection of affordable hotels and inns that cater to every traveler needs. Whether you are looking for a cozy boutique inn nestled in the heart of the city or a budget-friendly hotel with essential amenities, our diverse range of options ensures that you can find the perfect stay without breaking the bank.</p>
         </div>
-        <div class="box">
-            <i class="fas fa-utensils"></i>
+        <div class="flip-back">
+            <img src="./images/hotel.jpg" alt="hotel">
+        </div>
+        </div>
+       </div>
+            <div class="box flip">
+                <div class="flip-card" id ="flipCard">
+                <div class="flip-front">
+                <i class="fas fa-utensils"></i>
             <h3>Food and Drinks</h3>
             <p> Our food and drinks services are designed to cater to all tastes and preferences, ensuring that you savor the local flavors of each destination. Whether you're seeking vegetarian, vegan, or gluten-free options, our knowledgeable team will recommend the best eateries and hidden gems to enhance your travel experience. </p>
         </div>
-        <div class="box">
+        <div class="flip-back">
+            <img src="./images/food.gif" alt="food">
+        </div>
+     </div>
+    </div>
+    <div class="box flip">
+        <div class="flip-card">
+        <div class="flip-front">
             <i class="fas fa-bullhorn"></i>
             <h3>Safety guide</h3>
-            <p>Your safety is our top priority. Traveling can sometimes come with uncertainties, which is why we are committed to providing you with comprehensive safety guidelines to ensure a worry-free experience. Before embarking on your journey, always check the latest travel advisories and health recommendations for your destination. We recommend purchasing travel insurance that covers unexpected events, including trip cancellations and medical emergencies. Keep important documents, such as your passport and travel insurance policy, in a secure yet accessible place</p>
+            <p>Your safety is our top priority. Traveling can sometimes come with uncertainties, which is why we are committed to providing you with comprehensive safety guidelines to ensure a worry-free experience. Before embarking on your journey, always check the latest travel advisories and health recommendations for your destination. We recommend purchasing travel insurance that covers unexpected events, including trip cancellations and medical emergencies.</p>
         </div>
-        <div class="box">
+        <div class="flip-back">
+            <img src="./images/safety.jpg" alt="safety">
+        </div>
+        </div>
+    </div>
+        <div class="box flip">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <i class="fas fa-plane"></i>
+                    <h3>Flight Booking</h3>
+            <p>Our flight booking service offers a seamless and user-friendly experience, allowing you to explore, compare, and book flights from a wide range of airlines around the world. Whether you're planning a short getaway or a long-haul adventure, we ensure that you find the best options tailored to your needs</p>
+                </div>
+                <div class="flip-back">
+                    <img src="./images/flight.jpg" alt="flight">
+                </div>
+        </div>
+    </div>
+    <div class="box flip">
+        <div class="flip-card">
+        <div class="flip-front">
             <i class="fas fa-globe-asia"></i>
             <h3>Around the world</h3>
-            <p> We pride ourselves on offering a comprehensive range of services designed to cater to every traveler's needs. Whether you're dreaming of a tropical getaway, an adventurous trek through the mountains, or an enriching cultural experience in a bustling city, our expert team is here to guide you every step of the way. We provide personalized travel planning, including itinerary customization, accommodation bookings, and transportation arrangements, ensuring a seamless journey from start to finish.</p>
+            <p>Travel is not just about reaching a destination, but about experiencing the world in all its beauty and diversity. Our "Around the World" package offers you the chance to explore some of the most breathtaking locations, rich cultures, and unforgettable experiences the globe has to offer.</p>
         </div>
-        <div class="box">
+        <div class="flip-back">
+            <img src="./images/Around.jpg" alt="around">
+        </div>
+        </div>
+    </div>
+    <div class="box flip">
+        <div class="flip-card">
+        <div class="flip-front">
+            <i class="fas fa-user-friends"></i>
+            <h3> Family and Child-Friendly Travel</h3>
+            <p>Special packages designed for families with children, including family-friendly accommodations, activities, and attractions that cater to all ages.Exclusive services for high-end travelers, including luxury accommodations, private tours, and personalized experiences tailored to discerning tastes.</p>
+        </div>
+        <div class="flip-back">
+            <img src="./images/family.jpg" alt="family">
+        </div>
+        </div>
+    </div>
+         <div class="box flip">
+            <div class="flip-card">
+                <div class="flip-front">
             <i class="fas fa-plane"></i>
             <h3>Fastest travel</h3>
             <p> We understand that time is precious, which is why we offer the fastest travel solutions tailored to your needs. Our expert team is dedicated to providing you with swift booking processes, ensuring you can secure flights, accommodations, and transportation in just a few clicks. With our exclusive partnerships with leading airlines and hotels, we guarantee quick access to the best deals, allowing you to travel seamlessly and efficiently.</p>
         </div>
-        <div class="box">
+        <div class="flip-back">
+            <img src="./images/fastest.jpg" alt="fastest">
+        </div>
+       </div>
+        </div>
+        <div class="box flip">
+            <div class="flip-card">
+                <div class="flip-front">
             <i class="fas fa-hiking"></i>
             <h3>Adventure</h3>
             <p>Life is meant to be explored, and our adventure services are designed to ignite your wanderlust. Whether you're seeking the thrill of a mountain trek, the excitement of white-water rafting, or the serenity of a secluded beach getaway, we have curated a diverse range of adventurous experiences tailored just for you. Our expert team is dedicated to providing personalized itineraries that cater to your interests and skill levels, ensuring unforgettable moments that resonate with the spirit of exploration.</p>
         </div>
+        <div class="flip-back">
+            <img src="./images/adventure.jpg" alt="adventure">
+        </div>
+        </div>
     </div>
    </section>
-   <section class="gallery round" id = "gallery">
-    <h1 class="heading">
-        <span>Gallery</span>
+   <section class="gallery" id = "gallery">
+    <h1 class="heading4">
+        <!-- <span>Gallery</span> -->
     </h1>
     <div class="box-container">
         <div class="box">
@@ -309,7 +376,7 @@
         <div class="box">
             <img src="./images/Eiffel Tower.jpg" alt="IMAGE">
             <div class="content">
-                <h3>The Eiffel Tower, France</h3>
+                <h3>Eiffel Tower, France</h3>
                 <p>  A global cultural icon of France, this iron lattice tower offers breathtaking views of Paris.
                 </p>
                 <a href="#" class="btn">See More</a>
@@ -318,9 +385,8 @@
         <div class="box">
             <img src="./images/Aurora Borealis.jpg" alt="IMAGE">
             <div class="content">
-                <h3>Aurora Borealis, Norway
-                </h3>
-                <p>  The Northern Lights paint the sky with vibrant colors in a spectacular natural light display visible in Arctic regions.</p>
+                <h3>Aurora Borealis, Norway</h3>
+                <p>Northern Lights paint the sky with vibrant colors in Arctic regions.</p>
                 <a href="#" class="btn">See More</a>
             </div>
         </div>
@@ -335,8 +401,8 @@
         <div class="box">
             <img src="./images/Banff National Park.jpg" alt="image">
             <div class="content">
-                <h3>Banff National Park, Canada</h3>
-                <p> This national park is known for its breathtaking mountain scenery, turquoise lakes, and diverse wildlife.</p>
+                <h3>Banff Park, Canada</h3>
+                <p> It is known for its breathtaking mountain scenery, turquoise lakes, and diverse wildlife.</p>
                 <a href="#" class="btn">See More</a>
             </div>
         </div>
@@ -351,140 +417,182 @@
         <div class="box">
             <img src="./images/Grand Canyon.jpg" alt="image">
             <div class="content">
-                <h3>Grand Canyon, USA
-                </h3>
-                <p>Known for its immense size and intricate landscapes, the Grand Canyon offers stunning vistas and opportunities for outdoor adventures.
-                </p>
+                <h3>Grand Canyon, USA</h3>
+                <p>Known for its immense size and intricate landscapes, Grand Canyon offers stunning vistas and adventures.</p>
                 <a href="#" class="btn">See More</a>
             </div>
         </div>
     </div>
    </section> 
-   <section class="review round" id = "review">
-    <h1 class="heading">
-        <span>Review</span>
-    </h1>
-    <div class="review-slider">
-        <div class="content">
-            <div class="slider expanded">
-                <div class="box">
-                    <img src="./images/review2.jpg" alt="review1" class="reviewer">
-                    <h3>Sarah Thompson</h3>
-                    <p>"I had the most amazing experience with this travel agency! They organized everything perfectly, and I felt like I was on a dream vacation in Bali."</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="images/review3.jpg" alt="review2" class="reviewer">
-                    <h3> James Wilson</h3>
-                    <p>"The team was incredibly helpful in planning our family trip to Europe. Every detail was taken care of, and we made memories that will last a lifetime!"</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="./images/review1.jpg" alt="review3" class="reviewer">
-                    <h3>John deo</h3>
-                    <p>"I was blown away by the efficiency and support provided by this agency. Our trip to Japan was well-organized and full of great experiences!"</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="./images/review 1.jpg" alt="review4" class="reviewer" >
-                    <h3>Emily Johnson</h3>
-                    <p>I have traveled with many agencies before, but this one stands out. Their personalized service and attention to detail are unmatched. Highly recommend!"</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-            <div class="box">
-                <img src="./images/review4.jpg" alt="review5" class="reviewer">
-                <h3>Michael Brown </h3>
-                <p>"From the first inquiry to our return home, everything was seamless. The tour guides were knowledgeable and friendly. Can't wait to book again!"</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
-        </div>
-        <div class="slider">
-                <div class="box">
-                    <img src="./images/review5.jpg" alt="review6" class="reviewer">
-                    <h3> Karan </h3>
-                    <p>"An amazing experience! The team took the time to understand what we wanted, and they delivered an incredible trip to the Maldives."</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+   <section class="imagesM" id = "imagesM">
+    <!-- <h3 class="heading">
+        More Images
+    </h3> -->
+    <div >
+        <img src="./images/imageM1.jpg" data-index="0" data-status="inactive" alt="image1" class="imagesMORE">
+        <img src="./images/imageM2.jpg" data-index="1" data-status="inactive" alt="image2" class="imagesMORE">
+        <img src="./images/imageM3.jpg" data-index="2" data-status="inactive" alt="image3" class="imagesMORE">
+        <img src="./images/imageM4.webp" data-index="3" data-status="inactive" alt="image4" class="imagesMORE">
+        <img src="./images/imageM5.jpg" data-index="4" data-status="inactive" alt="image5" class="imagesMORE">
+        <img src="./images/imageM6.jpg" data-index="5" data-status="inactive" alt="image6" class="imagesMORE">
+        <img src="./images/imageM7.jpg" data-index="6" data-status="inactive" alt="image7" class="imagesMORE">
+        <img src="./images/imageM8.jpg" data-index="7" data-status="inactive" alt="image8"  class="imagesMORE">
+        <img src="./images/imageM9.jpg" data-index="8" data-status="inactive" alt="image9"  class="imagesMORE">
+        <img src="./images/imageM10.webp" data-index="9" data-status="inactive" alt="image10"  class="imagesMORE">
     </div>
    </section>
-   <section class="contact round">
-    <h1 class="heading">
-        <span>Contact</span>
+   <section class="review hidden" id = "review">
+    <h1 class="heading5">
+        <!-- <span>Review</span> -->
     </h1>
-
-    <div class="row">
-        <div class="image">
-            <img src="./images/contact.jpg" alt="image">
+        
+        <div class="review-slider">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="content">
+                <div class="slider expanded">
+                    <div class="box">
+                        <img src="./images/review2.jpg" alt="review1" class="reviewer">
+                        <h3>Sarah Thompson</h3>
+                        <p>"I had the most amazing experience with this travel agency! They organized everything perfectly, and I felt like I was on a dream vacation in Bali."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box">
+                        <img src="images/review3.jpg" alt="review2" class="reviewer">
+                        <h3>James Wilson</h3>
+                        <p>"The team was incredibly helpful in planning our family trip to Europe. Every detail was taken care of, and we made memories that will last a lifetime!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/review1.jpg" alt="review3" class="reviewer">
+                        <h3>John Deo</h3>
+                        <p>"I was blown away by the efficiency and support provided by this agency. Our trip to Japan was well-organized and full of great experiences!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/review 1.jpg" alt="review4" class="reviewer">
+                        <h3>Emily Johnson</h3>
+                        <p>"I have traveled with many agencies before, but this one stands out. Their personalized service and attention to detail are unmatched. Highly recommend!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/review4.jpg" alt="review5" class="reviewer">
+                        <h3>Michael Brown</h3>
+                        <p>"From the first inquiry to our return home, everything was seamless. The tour guides were knowledgeable and friendly. Can't wait to book again!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/review5.jpg" alt="review6" class="reviewer">
+                        <h3>Karan</h3>
+                        <p>"An amazing experience! The team took the time to understand what we wanted, and they delivered an incredible trip to the Maldives."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
         </div>
+    </section>
+   <section class="contact hidden">
+    <h1 class="heading6">
+        <!-- <span>Contact</span> -->
+    </h1>
+    <img src="./images/contact.jpg" alt="image">
+    <div class="row">
+        <div class="content">
+        <div class="image left-side">
+             <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one"> 198 West 21th street</div>
+                <div class="text-two">suite 721 New York NY 10016</div>
+             </div>
+             <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+0098 2355 98</div>
+                <div class="text-two">+0096 3435 5678</div>
+             </div>
+             <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">abc@yoursite.com</div>
+                <div class="text-two">info.abc@yoursite.com</div>
+             </div>
+        </div>
+        <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+      
         <form>
+            
             <div class="inputBox">
                <input type="text" placeholder="name" required="required">
+               </div>
+               <div class="inputBox">
                 <input type="email" placeholder="email" required="required">
             </div>
             <div class="inputBox">
                 <input type="tel" placeholder="number" required="required">
+            </div>
+            <div class="inputBox">
                 <input type="text"  placeholder="subject" required="required">
-
             </div>
             <textarea placeholder="message" cols="30" rows="10"></textarea>
+            <div class="button">
             <input type="submit" class="btn" id="send message">
+        </div>
         </form>
     </div>
+    </div>
+</div>
+   
    </section>
    <footer class="round">
     <div class="box-container">
-        <div class="box">
-            <h3> About us</h3>
-            <p> Our Agency is dedicated to creating unforgettable travel experiences tailored to your unique preferences. With our team of passionate travel experts, we curate personalized itineraries that cater to your desires—whether it’s a relaxing beach getaway, an adventurous trek, or an immersive cultural experience. Let us help you explore the world one destination at a time!</p>
-        </div>
         <div class="box">
             <h3>Branch Locations</h3>
             <a href="#">India</a>
