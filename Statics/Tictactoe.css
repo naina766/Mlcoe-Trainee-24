@@ -1,0 +1,145 @@
+/* *{
+    margin: 0;
+    padding: 0; 
+}
+html,body{
+    height:100%;
+}
+body{
+    background-color: #764C16;
+    background: url('./wood background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    color: white;
+    /* text-align: center; 
+    font-size: 2.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.display{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hide{
+    display:none;
+}
+.container{
+    /* height: 30rem; 
+    max-width: 30rem;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+.cell{
+    border:  0.3rem solid black;
+    min-width: 6.5rem;
+    min-height: 6.5rem;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    /* text-align: center;
+    line-height: 7rem; 
+}
+.playerX{
+    color: #09C372;
+}
+.playerO{
+    color: #498AF8;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#reset{
+    background-color: #ff3860;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 2.2rem;
+    margin-left: 1em;
+    cursor: pointer;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.box{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 2rem;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset,#new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 2rem;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none;
+}
